@@ -16,6 +16,6 @@ $student[]=60;
 print_r($student);
 var_dump($student);
 var_dump(__DIR__); //输出 当前脚本的工作目录的绝对路径  _DIR_为魔术常量
-
+require __DIR__ . '/'
 
 ?>
